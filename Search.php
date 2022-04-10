@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,9 +20,11 @@
     <link rel="stylesheet" href="assets/css/Shop-item.css">
     <link rel="stylesheet" href="assets/css/Shopping-Grid.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 
 <body>
+    <include src="./header.html"></include>  <include src="./footer.html"></include>
     <hr>
     <div class="row" style="margin-top: 40px;">
         <div class="col d-xxl-flex justify-content-xxl-end align-items-xxl-center" style="margin-right: 0px;margin-left: 205px;"><input type="search" style="width: 385px;"></div>

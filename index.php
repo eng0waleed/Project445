@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -24,8 +23,13 @@
 </head>
 
 <body>
+    <?php include 'header.php'; ?>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Grid-and-List-view-V10.js"></script>
+
+
+
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>

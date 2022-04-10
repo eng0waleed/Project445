@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -24,6 +23,7 @@
 </head>
 
 <body>
+    <?php include 'header.php'; ?>
     <section class="register-photo">
         <div class="form-container">
             <form method="post">
@@ -45,6 +45,8 @@
     </section>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Grid-and-List-view-V10.js"></script>
+
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
