@@ -23,11 +23,10 @@
 
 </head>
 
-<body>
-    <include src="./header.html"></include>  <include src="./footer.html"></include>
-    <hr>
+<body class="background">
+    <?php include 'header.php'; ?>
     <div class="row" style="margin-top: 40px;">
-        <div class="col d-xxl-flex justify-content-xxl-end align-items-xxl-center" style="margin-right: 0px;margin-left: 205px;"><input type="search" style="width: 385px;"></div>
+        <div class="col d-xxl-flex justify-content-xxl-end align-items-xxl-center" style="margin-right: 0px;margin-left: 205px;"><input type="search" placeholder="Search ..." style="width: 385px;"></div>
         <div class="col d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="width: 664px;max-width: 60%;"><button class="btn btn-primary text-center d-block d-xxl-flex justify-content-center justify-content-xxl-center w-20" type="submit" style="text-align: center;width: 125.9062px;color: var(--bs-light);background: var(--bs-info);">Submit</button></div>
     </div>
     <hr style="margin-top: 43px;">
@@ -173,6 +172,8 @@
     <hr style="margin-top: 43px;">
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Grid-and-List-view-V10.js"></script>
+
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>

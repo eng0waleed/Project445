@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body class="background">
     <?php include 'header.php'; ?>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Grid-and-List-view-V10.js"></script>

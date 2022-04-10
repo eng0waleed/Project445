@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body class="background">
     <?php include 'header.php'; ?>
     <section class="register-photo">
         <div class="form-container">

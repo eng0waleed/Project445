@@ -23,7 +23,7 @@
 
 </head>
 
-<body>
+<body class="background">
 
 	<?php include "./header.php" ?>
 
@@ -61,7 +61,7 @@
             </div>
         </div>
         <hr>
-        <h3 class="my-4" style="text-align: left;">Reviews</h3>
+        <h3 class="my-4" style="text-align: center;">Reviews</h3>
         <div class="col"><div class="container">	
 		<div class="card">
 			<div class="card-body">
